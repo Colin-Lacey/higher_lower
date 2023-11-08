@@ -1,0 +1,27 @@
+[[package]]
+name = "art"
+version = "6.1"
+description = "ASCII Art Library For Python"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[package.extras]
+dev = ["coverage (>=4.1)", "vulture (>=1.0)", "bandit (>=1.5.1)", "pydocstyle (>=3.0.0)"]
+
+[[package]]
+name = "plane-war"
+version = "1.0"
+description = "飞机大战"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "67f8507ae308dbdfcf5dc8be60427d3e8f1af17dd6295112b5a0d7610a2248eb"
+
+[metadata.files]
+art = []
+plane-war = []
